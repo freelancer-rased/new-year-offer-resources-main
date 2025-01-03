@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.hero-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* background-image: url('./images/Banner\ Image.png'); */
+    background-image: 
+    linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), /* Shadow effect */
+    url('./images/Banner\ Image.png'); 
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    color: white;
+}
+
+.hero-font{
+    font-family: "Merriweather", serif;
+}
+
+.hero-container h1{
+    font-size: 88px;
+}
+
+.hero-container h3{
+    font-size: 32px;
+}
+
+.offer{
+    margin: 100px 0;
+    text-align: center;
+}
+
+.offer-title{
+    font-size: 88px;
+    font-weight: bold;
+    color: red;
+    margin-bottom: 20px;
+}
+
+.offer h1{
+    font-size: 48px;
+    color: #070211;
+    margin: 15px 0 40px;
+}
+
+.offer h3{
+    color: red;
+    font-size: 24px;
+}
+
+.offer img{
+    width: 500px;
+}
+
+.midnight-container{
+    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), /* Shadow effect */
+    url('./images/Vectorrr.png');
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 100px;
+    margin-bottom: 100px;/* background-image: url('./images/Vectorrr.png'); */
+}
+
+.midnight-right img{
+    width: 250px;
+}
+
+.midnight-left h1{
+    font-size: 64px;
+    color: white;
+}
+
+.midnight-left p{
+    margin: 15px 0;
+    color: white;
+}
+
+.midnight-btn{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.park-hotel{
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.park-hotel h2{
+    padding-bottom: 20px;
+}
+.park-hotel span{
+    color: red;
+}
+
+.park-hotel button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #FF0000;
+    font-weight: bold;
+    color: white;
+    width: 120px;
+}
+
+.coming-soon-container{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.comming-soon-midle img{
+    border: 20px solid red;
+    border-radius: 50%;
+    padding: 30px;
+    width: 300px;
+}
+
+.comming-soon-left h2{
+    color: red;
+}
+
+.comming-soon-left h1{
+    font-size: 48px;
+    margin: 15px 0;
+}
+
+.comming-soon-left p{
+    color: #070211;
+}
+
+.comming-soon-right h1{
+    font-size: 48px;
+    color: red;
+}
+
+.comming-soon-right p{
+    color: #070211;
+    padding: 10px 0 40px;
+}
+
+.functional-container{
+    margin: 100px 0;
+    align-items: center;
+    text-align: center;
+}
+
+.functional-container h3{
+    font-size: 24px;
+}
+
+.functional-container h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+.functional-container p{
+    font-size: 20px;
+    color: gray;
+}
+
+.functional-container span{
+    color: red;
+}
+
+.gift-container{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url('./images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: contain;
+    margin-bottom: 100px;
+}
+
+.gift-image img{
+    width: 700px;
+    height: 500px;
+   
+}
+
+.gift-image-right img{
+    margin-top: -50px;
+    width: 250px;
+}
+
+.portfolio-image img{
+    width: 350px;
+    justify-content: center;
+    align-items: center;
+}
+
+.portfolio-image{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.portfolio-text h3{
+    font-size: 24px;
+    color: red;
+}
+
+.portfolio-text h1 {
+    font-size: 48px;
+    margin: 10px 0;
+}
+.portfolio-text p{
+    font-size: 20px;
+    color: gray;
+}
+.portfolio-text{
+    width: 60%;
+    margin-left: 90px;
+    margin-bottom: 30px;
+}
+
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 100px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}
+.footer-social{
+    margin: 50px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+     
+}
+
+.footer-social img{
+    width: 50px;
+}
+
+.footer-bottom{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0;
+}
+
+.Subscribe{
+    margin-right: 60px;
+}
